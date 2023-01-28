@@ -9,3 +9,4 @@ edition = "2021"
 tui = "0.19.0"                    # A library to build rich terminal user interfaces or dashboards 
 crossterm = "0.25.0"            # A crossplatform terminal library for manipulating terminals.
 figlet-rs = "0.1.4"    # Rust implementation of [FIGlet](http://www.figlet.org/) to create ascii art 
+clap = { version = "4.1.4", features = ["derive"] }                             # A simple to use, efficient, and full-featured Command Line Argument Parser
